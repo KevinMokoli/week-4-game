@@ -1,0 +1,48 @@
+
+h1{
+	display:inline;
+	clear: both;
+	margin-bottom: 20px;
+	border: solid 0px #ddd;
+
+}
+
+#wrapper {
+	width: 100%
+	max-width:960px;
+	margin: 0 auto;
+}
+
+
+
+#guessingNumber {
+	float: left;
+	display: inline-block;
+	padding: 0px;
+	margin-top: 27px;
+	
+}
+
+
+
+#crystals {
+	margin-top: 15px;
+	margin-bottom:26px;
+
+}
+
+.crystalImage {
+	height: 175px;
+	border: solid 0px #272525;
+	margin-left: 10px
+}
+
+.crystalImage:firstchild {
+	margin-left: 0px;
+
+}
+
+#totalScore {
+	margin-bottom: 50px;
+}
+

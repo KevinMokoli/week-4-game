@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Crystal Collectors</title>
+	<!--CSS Setups -->
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	<!-- Bootstrap CDN -->
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css' integrity='sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7' crossorigin='anonymous'>
+
+    
+</head>
+<body>
+
+<!-- Navigate through the various games being built -->
+  <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+       </button>
+      <a class="navbar-brand" href="#">Game Time</a>
+    </div>
+    
+    <div class="collapse navbar-right navbar-collapse" id="myNavbar">
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Crystal Collector</a></li>
+      <li><a href="#">RnB Hangman</a></li>
+      <li><a href="#">Beat The Psychic</a></li>
+    </ul>
+  </div>
+  </div>
+</nav>
+
+<div id = "wrapper">
+
+<!-- this is the area for the header "crystal game collecter" and the rules -->
+    <div class="header-area">
+      <div class="row container">
+        <div class="col-sm-8 well">
+          <h1> The Crystal Collector!</h1>
+          <h2> Rules and Guidelines </h2>
+          <ul>
+            <li>1. You will be given a random number to start the game.</li>
+            <li>2. Click on the crystals to get your number to match to the computers number.</li>
+            <li>3. Win or Lose... just have fun!</li>
+          </ul>
+        </div>
+      
+        
+
+<!-- Div for the number guesses and the number of losses and wins -->
+        <div class="col-sm-4 well">
+        <div id="guessingNumber">
+			<h2>Number to Guess: <span class="value"></span></h2> 	
+		</div>
+
+		<div id="scoreboard">
+			<h3><span id="status"></span></h3>
+			<h3>Wins: <span id="win"></span></h3>
+			<h3>Losses: <span id="loss"></span></h3>
+		</div>
+	</div>
+         </div> 
+         </div>
+
+<!-- Crystal Image Area -->
+	
+	<div class="container-fluid">
+	  <div class="row">
+	   <div class="col-sm-12">
+		<div id="crystals"></div>
+
+		<div id="totalScore">
+			<h2 id="yts">Your Total Score is: <span id ="yourScore"></span></h2>
+		
+		</div>
+		</div>
+		</div>
+
+</div>
+
+
+<!-- adding jQuery -->
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+
+</body>
+</html>
